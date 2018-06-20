@@ -1,0 +1,21 @@
+{
+    "name": "vince/prime",
+    "description": "Prime Factorization",
+    "authors": [
+        {
+            "name": "Robbuss",
+            "email": "vincentvanmontfoort@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}

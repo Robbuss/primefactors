@@ -1,0 +1,23 @@
+{
+  "name": "prime",
+  "version": "1.0.0",
+  "description": "Prime factorization",
+  "main": "index.php",
+  "scripts": {
+    "aap": "vendor/bin/phpspec run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robbuss/prime.git"
+  },
+  "keywords": [
+    "Prime",
+    "factorization"
+  ],
+  "author": "Robbuss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robbuss/prime/issues"
+  },
+  "homepage": "https://github.com/Robbuss/prime#readme"
+}
