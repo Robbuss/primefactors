@@ -8,7 +8,7 @@ $request = Request::createFromGlobals();
 
 $number = $request->get('number');
 
-if($number){
+if(is_numeric($number)){
     if($number > 999999999){
         $responseString = 'Whoaa easy there cowboy! What do you think I am? <br>Some kind of Supercomputer? Try a small number or I get overheated!';
     }else{
@@ -24,7 +24,8 @@ if($number){
             $responseString = $primeNumber . ' is definitely a prime number<br>';
         }
     }
-    $response = new Response($responseString);
+}else{
+    $responseString = 'Not a number';
 }
 
 include('form.php');
