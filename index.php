@@ -8,8 +8,6 @@ $request = Request::createFromGlobals();
 
 $number = $request->get('number');
 
-// TODO: check if the $number is actually a number
-
 if($number){
     if($number > 999999999){
         $responseString = 'Whoaa easy there cowboy! What do you think I am? <br>Some kind of Supercomputer? Try a small number or I get overheated!';

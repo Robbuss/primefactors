@@ -3,6 +3,10 @@ Simple PHP code kata to find out if a number is a primefactor and what the prime
 
 ### Installing
 
+[demo](https://forgefactory.nl/prime)
+
+### Installing
+
 Clone this repository in a webserver directory and run
 
 ```

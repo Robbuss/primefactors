@@ -10,7 +10,7 @@
         <label for="number">Ooh exciting! Is it a prime number?</label>
         <input name="number" type="number" class="form-control" id="number" placeholder="Type a number.. any number">
     </div>
-    <?php if(isset($response)){?>
+    <?php if(is_numeric($number)){?>
         <div class="alert alert-primary" role="alert">
             <?php $response->send(); ?>
         </div>
